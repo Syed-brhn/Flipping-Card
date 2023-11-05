@@ -10,6 +10,9 @@ section{
     min-height: 100vh;
     width: 100%;
     background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section::before{
@@ -18,6 +21,16 @@ section::before{
     height: 240px;
     width: 240px;
     border-radius: 50%;
-    background: linear-gradient(90deg, #9c27b0, #f3f5f5)
-    
+    transform: translate(-150px,-100px);
+    background: linear-gradient(90deg, #9c27b0, #f3f5f5)   
+}
+
+section::after{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(-150px,-100px);
+    background: linear-gradient(90deg, #9c27b0, #f3f5f5)   
 }
