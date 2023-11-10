@@ -20,7 +20,7 @@ section {
 section::before {
     content: "";
     position:absolute;
-    top: 100px;
+    top: 250px;
     height: 240px;
     width: 240px;
     border-radius: 50%;
@@ -31,7 +31,7 @@ section::before {
 section::after {
     content: "";
     position: absolute;
-    bottom: 100px;
+    /* bottom: 100px; */
     height: 240px;
     width: 240px;
     border-radius: 50%;
